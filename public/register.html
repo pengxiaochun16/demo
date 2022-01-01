@@ -1,0 +1,22 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>register</title>  
+    <link rel="stylesheet" type="text/css" href="/home/user/00project/demo/css/test.css"/>  
+</head>  
+<body>  
+    <div id="login">  
+        <h1>用户注册</h1>
+        <form name="Form" action="/doRegister" method="GET">
+            账号: <input type="text" placeholder="请输入纯字母" name="username"><br>
+            密码: <input type="password" name="password"><br>
+            性别:<input class="userSex" name="sex" value="boy" type="radio">男
+                <input class="userSex" name="sex" value="girl" type="radio">女
+                <label id="sex_trip"></label><br>
+            年龄: <input type="number" name="age"><br>
+            <input type="submit" name="submit" value="注册">
+        </form>
+    </div>  
+</body>  
+</html> 
